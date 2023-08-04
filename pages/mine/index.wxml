@@ -1,0 +1,5 @@
+<scroll-view class="scrollview" scroll-y type="list">
+  <view class="container mine">
+    我的页面
+  </view>
+</scroll-view>

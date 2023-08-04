@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/mine/index",
+    "pages/sightsee/index",
+    "pages/record/index"
+  ],
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#06d5c0",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "selectedIconPath": "./static/images/home-select.png",
+        "iconPath": "./static/images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sightsee/index",
+        "selectedIconPath": "./static/images/sightsee-select.png",
+        "iconPath": "./static/images/sightsee.png",
+        "text": "游记"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "selectedIconPath": "./static/images/record-select.png",
+        "iconPath": "./static/images/record.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "selectedIconPath": "./static/images/mine-select.png",
+        "iconPath": "./static/images/mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
