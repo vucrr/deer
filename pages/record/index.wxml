@@ -1,5 +1,5 @@
 <scroll-view class="scrollview" scroll-y type="list">
   <view class="container record">
-    记录页面
+    记录页面📝
   </view>
 </scroll-view>
