@@ -1,0 +1,10 @@
+dist/
+node_modules/
+.DS_Store
+.mini-ide/
+.idea/
+.history/
+project.private.config.json
+mini.project.json
+project.config.json
+
