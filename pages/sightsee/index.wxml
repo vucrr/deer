@@ -1,5 +1,11 @@
 <scroll-view class="scrollview" scroll-y type="list">
   <view class="container sightsee">
-    游记页面⛰️
+    <view class="text">
+        游记页面⛰️
+    </view>
+    <view class="text">
+      所有游记都在这里面展示
   </view>
+  </view>
+ 
 </scroll-view>

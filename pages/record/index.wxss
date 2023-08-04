@@ -1,1 +1,3 @@
-/* pages/record/record.wxss */
+.record {
+    color: #06d5c0;
+}

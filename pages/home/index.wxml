@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <scroll-view class="scrollview" scroll-y type="list">
-  <view class="container">
-    小鹿，你好呀😄
+  <view class="container home">
+    <view class="text">蓝桉已遇释槐鸟,不爱万物唯爱你</view>
+    <view class="text to-deer">
+       ——送我最爱的小鹿
+    </view>
   </view>
+  
 </scroll-view>

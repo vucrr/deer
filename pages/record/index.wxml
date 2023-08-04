@@ -1,5 +1,10 @@
 <scroll-view class="scrollview" scroll-y type="list">
   <view class="container record">
-    记录页面📝
+    <view class="text">
+        记录页面📝
+    </view>
+    <view class="text">
+        可以在这个页面录入每一次旅游
+    </view>
   </view>
 </scroll-view>

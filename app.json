@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/home/index",
-    "pages/mine/index",
     "pages/sightsee/index",
     "pages/record/index"
   ],
@@ -26,12 +25,6 @@
         "selectedIconPath": "./static/images/record-select.png",
         "iconPath": "./static/images/record.png",
         "text": "记录"
-      },
-      {
-        "pagePath": "pages/mine/index",
-        "selectedIconPath": "./static/images/mine-select.png",
-        "iconPath": "./static/images/mine.png",
-        "text": "我的"
       }
     ]
   },

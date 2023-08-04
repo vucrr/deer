@@ -1,5 +1,10 @@
 /**index.wxss**/
+.home {
+    color: rgba(28, 185, 190, 0.863);
+}
 
-.scrollview {
-  height: 100vh;
+.to-deer {
+    margin-top: 5%;
+    width: 60%;
+    text-align: right;
 }
