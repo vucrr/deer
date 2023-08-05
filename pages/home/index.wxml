@@ -1,10 +1,14 @@
-<!--index.wxml-->
-<scroll-view class="scrollview" scroll-y type="list">
-  <view class="container home">
-    <view class="text">蓝桉已遇释槐鸟,不爱万物唯爱你</view>
-    <view class="text to-deer">
-       ——送我最爱的小鹿
+<scroll-view>
+    <view class="container">
+        <view class="page-section page-section-spacing swiper">
+            <swiper class="swiper" indicator-dots="{{true}}"
+                autoplay="{{true}}" interval="{{3000}}" duration="{{500}}">
+                <swiper-item wx:for="{{background}}" wx:key="*this">
+                    <view class="swiper-item {{item.text}}">
+                        <image class="img" src="{{item.imgUrl}}" mode=""/>
+                    </view>
+                </swiper-item>
+            </swiper>
+        </view>
     </view>
-  </view>
-  
 </scroll-view>
