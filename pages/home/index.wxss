@@ -24,11 +24,10 @@
 .summary-item {
     width: 40%;
     height: 200rpx;
-    background-color: #f3720979;
+    background-color: #31a86da4;
     margin-bottom: 30rpx;
     padding: 30rpx 20rpx;
     border-radius: 20rpx;
-    box-shadow: 0 0 5px #bb7b0496;
 }
 .summary-img {
     width: 72rpx;
