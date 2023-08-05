@@ -1,6 +1,7 @@
 <scroll-view>
     <view class="container">
-        <view class="page-section page-section-spacing swiper">
+        <!-- 顶部轮播 -->
+        <view class="swiper">
             <swiper class="swiper" indicator-dots="{{true}}"
                 autoplay="{{true}}" interval="{{3000}}" duration="{{500}}">
                 <swiper-item wx:for="{{background}}" wx:key="*this">
@@ -10,5 +11,24 @@
                 </swiper-item>
             </swiper>
         </view>
+        <!-- 旅游总结 -->
+        <View class="summary">
+            <View class="summary-item">
+                <image class="summary-img" src="./../../static/images/province.png" mode="" />
+                <view class="summary-text">累计去啦3个省份</view>
+            </View>
+            <View class="summary-item">
+                <image class="summary-img" src="./../../static/images/place.png" mode=""/>
+                <view class="summary-text">累计去啦3个景点</view>
+            </View>
+            <View class="summary-item">
+                <image class="summary-img" src="./../../static/images/foot.png" mode=""/>
+                <view class="summary-text">累计尝试啦40种美食</view>
+            </View>
+            <View class="summary-item">
+                <image class="summary-img" src="./../../static/images/had-go.png" mode=""/>
+                <view class="summary-text">累计尝试啦40种美食</view>
+            </View>
+        </View>
     </view>
 </scroll-view>

@@ -12,3 +12,32 @@
     width: 100%;
 }
 
+.summary {
+    margin-top: 30rpx;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.summary-item {
+    width: 40%;
+    height: 200rpx;
+    background-color: #f3720979;
+    margin-bottom: 30rpx;
+    padding: 30rpx 20rpx;
+    border-radius: 20rpx;
+    box-shadow: 0 0 5px #bb7b0496;
+}
+.summary-img {
+    width: 72rpx;
+    height: 72rpx;
+    margin-bottom: 20rpx;
+}
+
+.summary-text {
+    font-size: 30rpx;
+    color: #ffffff;
+}
+
