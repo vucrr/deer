@@ -1,4 +1,4 @@
-<scroll-view>
+<scroll-view scroll-y="{{true}}">
     <view class="container">
         <!-- 顶部轮播 -->
         <view class="swiper">
@@ -54,6 +54,13 @@
                 </view>
                 </view>
             </view>
+        </view>
+        <view class="summary-title">
+            <text class="title-main">旅游tips</text>
+            <text class="title-desc">各种旅游小心得</text>
+        </view>
+        <view class="tips">
+            <image class="tips-img" src="https://img2.baidu.com/it/u=143487880,1655821014&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500" mode=""/>
         </view>
     </view>
 </scroll-view>
