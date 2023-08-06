@@ -12,31 +12,116 @@
     width: 100%;
 }
 
-.summary {
-    margin-top: 30rpx;
-    width: 100%;
+.summary-title {
+    width: 100vw;
+    padding: 40rpx 0 10rpx 40rpx;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
 }
 
-.summary-item {
-    width: 40%;
-    height: 200rpx;
-    background-color: #31a86da4;
-    margin-bottom: 30rpx;
-    padding: 30rpx 20rpx;
-    border-radius: 20rpx;
-}
-.summary-img {
-    width: 72rpx;
-    height: 72rpx;
-    margin-bottom: 20rpx;
+.title-main {
+    font-size: 36rpx;
+    font-weight: bold;
+    margin-right: 20rpx;
 }
 
+.title-desc {
+    background-color: #fff3ea;
+    padding: 5rpx 20rpx;
+    color: #ffa25a;
+    border-radius:8rpx;
+    font-size: 24rpx;
+}
+
+.summary {
+    margin-top: 40rpx;
+    width: calc(100vw - 40rpx);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.summary-item {
+    width: 31%;
+    height: 300rpx;
+    border-radius: 20rpx;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.summary-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20rpx;
+    z-index: -1;
+}
 .summary-text {
-    font-size: 30rpx;
     color: #ffffff;
+    font-size: 36rpx;
+    margin-bottom: 10rpx;
+}
+.summary-desc {
+    font-size: 24rpx;
+    color: #eeeeee;
+    margin-bottom: 30rpx;
+}
+
+.future {
+    margin-top: 40rpx;
+    width: calc(100vw - 40rpx);
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-left {
+    width: 48%;
+    height: 400rpx;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+.future-left-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20rpx;
+}
+
+.future-right {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.future-right-item {
+    width: 100%;
+    height: 185rpx;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.future-right-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
 }
 

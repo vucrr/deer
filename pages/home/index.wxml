@@ -12,23 +12,48 @@
             </swiper>
         </view>
         <!-- 旅游总结 -->
+        <view class="summary-title">
+            <text class="title-main">种草记录</text>
+            <text class="title-desc">每一次旅游，都是一次对生活的热爱</text>
+        </view>
         <View class="summary">
             <View class="summary-item">
-                <image class="summary-img" src="./../../static/images/province.png" mode="" />
-                <view class="summary-text">累计去啦3个省份</view>
+                <image class="summary-img" src="https://img0.baidu.com/it/u=1029826822,3646606163&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889" mode="" />
+                <view class="summary-text">城市</view>
+                <view class="summary-desc">踏入啦3个城市</view>
             </View>
             <View class="summary-item">
-                <image class="summary-img" src="./../../static/images/place.png" mode=""/>
-                <view class="summary-text">累计去啦3个景点</view>
+                <image class="summary-img" src="https://img0.baidu.com/it/u=3022471857,1407304478&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=625" mode=""/>
+                <view class="summary-text">景点</view>
+                <view class="summary-desc">领略啦3个景点</view>
             </View>
             <View class="summary-item">
-                <image class="summary-img" src="./../../static/images/foot.png" mode=""/>
-                <view class="summary-text">累计尝试啦40种美食</view>
-            </View>
-            <View class="summary-item">
-                <image class="summary-img" src="./../../static/images/had-go.png" mode=""/>
-                <view class="summary-text">累计尝试啦40种美食</view>
+                <image class="summary-img" src="https://img1.baidu.com/it/u=1910810728,690283789&fm=253&fmt=auto&app=138&f=JPEG?w=231&h=500" mode=""/>
+                <view class="summary-text">美食</view>
+                <view class="summary-desc">品尝啦3种美食</view>
             </View>
         </View>
+        <view class="summary-title">
+            <text class="title-main">未来规划</text>
+            <text class="title-desc">向着远方，去感受自然</text>
+        </view>
+        <view class="future">
+            <View class="future-left">
+                <image class="future-left-image" src="https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1310/10/c31/27303940_27303940_1381418583031_mthumb.jpg" mode=""/>
+                <text>厦门 ></text>
+            </View>
+            <view class="future-right">
+                <view class="future-right-item">
+                    <image class="future-right-image" src="https://www.wuhanews.cn/wp-content/uploads/2021/05/ad193496accf4f0fa76f3b0b2c43b089.jpg" mode=""/>
+                <text>神农架 ></text>
+                </view>
+                <view>
+                    <view class="future-right-item">
+                    <image class="future-right-image" src="https://pic.lvmama.com/uploads/pc/place2/2017-07-20/9f2b18af-3723-4b89-9416-711607d0c9d9.jpg" mode=""/>
+                <text>涠洲岛 ></text>
+                </view>
+                </view>
+            </view>
+        </view>
     </view>
 </scroll-view>
