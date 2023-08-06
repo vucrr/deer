@@ -1,3 +1,62 @@
-.sightsee {
-    color: #06d5c0;
+.sightsee-search {
+    width: 90%;
+    height: 100rpx;
+    background-color: #F7F7F7;
+    border-radius: 50rpx;
+    display: flex;
+    align-items: center;
+    padding-left: 20rpx;
+}
+.search-img {
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 10rpx;
+}
+
+.sightsee-box {
+    margin-top: 30rpx;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sightsee-item {
+    width: 48%;
+    margin-bottom: 40rpx;
+    position: relative;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.068);
+    padding-bottom: 30rpx;
+}
+
+.sightsee-item-title {
+    margin: 10rpx 0 10rpx 20rpx;
+    font-weight: bold;
+}
+
+.sightsee-item-tag {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20rpx;
+}
+
+
+.sightsee-item-tag-item {
+    font-size: 22rpx;
+    border: 1px solid #f4dae3;
+    padding: 3rpx 5rpx;
+    color: #c14373d0;
+    margin-right: 15rpx;
+    margin-bottom: 10rpx;
+}
+
+.sightsee-item-img {
+    width: 100%;
+    height: 220rpx;
+}
+
+.sightsee-item-price {
+    color: #c14374;
+    margin-top: 20rpx;
+    padding-left: 20rpx;
 }

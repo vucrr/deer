@@ -14,3 +14,8 @@
 .text {
     margin-bottom: 20rpx;
 }
+
+.header-box {
+    width: 100vw;
+    height: 180rpx;
+}

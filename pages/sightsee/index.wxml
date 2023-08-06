@@ -1,11 +1,40 @@
-<scroll-view class="scrollview" scroll-y type="list">
+<scroll-view class="scrollview" scroll-y>
   <view class="container sightsee">
-    <view class="text">
-        游记页面⛰️
+    <view class="header-box"></view>
+    <view class="sightsee-search">
+        <image class="search-img" src="./../../static/images/search.png" mode=""/>
+        <input class="search-input" type="text" placeholder="搜索城市或者景点" placeholder-style="color:#aaaaaa;font-size:13px"/>
     </view>
-    <view class="text">
-      所有游记都在这里面展示
-  </view>
+    <View class="sightsee-box">
+        <view class="sightsee-item">
+            <image class="sightsee-item-img" src="https://img3.baa.bitautotech.com/img/V2img3.baa.bitautotech.com/dzusergroupFiles/2021/08/07/8edf1519ce5c4253a2da5d9921d71644_800_0_max_jpg_92.jpg" mode=""/>
+            <view class="sightsee-item-title">贵州之旅</view>
+            <view class="sightsee-item-tag">
+                <View class="sightsee-item-tag-item">梵净山</View>
+                <View class="sightsee-item-tag-item">千户苗寨</View>
+                <view class="sightsee-item-tag-item">黄果树瀑布</view>
+            </view>
+            <view class="sightsee-item-price">¥888</view>
+        </view>
+        <view class="sightsee-item">
+            <image class="sightsee-item-img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F237ee651-f096-4bde-972c-ab457bade4aa%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1693890456&t=dcdfbc76a318234e8be242ab392ae54a" mode=""/>
+            <view class="sightsee-item-title">神农架之旅</view>
+            <view class="sightsee-item-tag">
+                <View class="sightsee-item-tag-item">神农山</View>
+                <View class="sightsee-item-tag-item">野人po</View>
+            </view>
+            <view class="sightsee-item-price">¥888</view>
+        </view>
+        <view class="sightsee-item">
+            <image class="sightsee-item-img" src="https://img0.baidu.com/it/u=2630904072,765144676&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500" mode=""/>
+            <view class="sightsee-item-title">厦门之旅</view>
+            <view class="sightsee-item-tag">
+                <View class="sightsee-item-tag-item">鼓浪屿</View>
+                <View class="sightsee-item-tag-item">厦门大学</View>
+            </view>
+            <view class="sightsee-item-price">¥888</view>
+        </view>
+    </View>
   </view>
  
 </scroll-view>
