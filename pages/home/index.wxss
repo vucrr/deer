@@ -4,7 +4,6 @@
 
 .swiper-item {
     height: 100%;
-    background-color: aqua;
     text-align: center;
 }
 
